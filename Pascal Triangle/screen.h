@@ -9,3 +9,13 @@ enum COLORS {
 	CYAN,
 	WHITE
 };
+
+void setFGcolor(int color);
+
+void clearScreen(void);
+
+void gotoXY(int row, int col);
+
+void resetColor();
+
+void setBgColor(int color);
